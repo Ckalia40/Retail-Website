@@ -8,26 +8,201 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="website.css">
     <link href="https://fonts.googleapis.com/css?family=Sonsie+One" rel="stylesheet">
-   
-    
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+
+
+
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     
     
 </head>
 <body>
+        <div class="w3-sidebar w3-bar-block w3-collapse w3-animate-left" id ="mySidebar" style="width:200px;">
+          <button class="w3-bar-item w3-button w3-large w3-hide-large" onclick="w3_close()">Close &times;</button>  
+         
+                <button class="w3-button " style=" font-family: adelle-sans-ultra-thin, sans-serif; font-size: 1.2rem; width: 100%; text-align: left;">Shop Now </button>
+              
+          <div class="w3-dropdown-click">
+                <button class="w3-button " onclick="myCoolFunc()">
+                        Men <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div id="demoAbb" class="w3-dropdown-content w3-bar-block w3-white w3-card">
+                          <a href="#" class="w3-bar-item w3-button">Tops</a>
+                          <a href="#" class="w3-bar-item w3-button">Bottoms</a>
+                        </div>
+                </div>
+               
+                <div class="w3-dropdown-click">
+                <button class="w3-button" onclick="myAccFunc()">
+                Women <i class="fa fa-caret-down"></i>
+                </button>
+                <div id="demoAcc" class="w3-dropdown-content w3-bar-block w3-white w3-card">
+                  <a href="#" class="w3-bar-item w3-button">Tops</a>
+                  <a href="#" class="w3-bar-item w3-button">Bottoms</a>
+                </div>
+                </div>
+                <div class="w3-dropdown-click">
+                  <button class="w3-button " onclick="myVoolFunc()">
+                          Children<i class="fa fa-caret-down"></i>
+                          </button>
+                          <div id="demoAss" class="w3-dropdown-content w3-bar-block w3-white w3-card">
+                            <a href="#" class="w3-bar-item w3-button">Tops</a>
+                            <a href="#" class="w3-bar-item w3-button">Bottoms</a>
+                          </div>
+                  </div>
+              
+                <div class="w3-dropdown-click">
+                <button class="w3-button " onclick="myFoolFunc()">
+                        By Style <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div id="demoAdd" class="w3-dropdown-content w3-bar-block w3-white w3-card">
+                          <a href="#" class="w3-bar-item w3-button">Retro</a>
+                          <a href="#" class="w3-bar-item w3-button">Modern</a>
+                          <a href="#" class="w3-bar-item w3-button">Classic</a>
+                          <a href="#" class="w3-bar-item w3-button">Simple</a>
+                          <a href="#" class="w3-bar-item w3-button">Country</a>
+                          <a href="#" class="w3-bar-item w3-button">Explosive</a>
+                        </div>
+                </div>
+                <div class="w3-dropdown-click">
+                        <button class="w3-button" onclick="myDroolFunc()">
+                                Sweaters <i class="fa fa-caret-down"></i>
+                              </button>
+                              <div id="demoMop" class="w3-dropdown-content w3-bar-block w3-white w3-card">
+                                <a href="#" class="w3-bar-item w3-button">Men</a>
+                                <a href="#" class="w3-bar-item w3-button">Women</a>
+                                <a href="#" class="w3-bar-item w3-button">Children</a>
+                              </div> 
+                              </div>
+                              <div class="w3-dropdown-click">
+                                <button class="w3-button " onclick="myWoolFunc()">
+                                        Tees<i class="fa fa-caret-down"></i>
+                                        </button>
+                                        <div id="demoApp" class="w3-dropdown-content w3-bar-block w3-white w3-card">
+                                          <a href="#" class="w3-bar-item w3-button">Men</a>
+                                          <a href="#" class="w3-bar-item w3-button">Women</a>
+                                          <a href="#" class="w3-bar-item w3-button">Children</a>
+                                        </div>
+                                </div>
+                             
+                                  <div class="w3-dropdown-click">
+                                  <button class="w3-button" onclick="myBoolFunc()">
+                                        Shorts <i class="fa fa-caret-down"></i>
+                                      </button>
+                                      <div id="demoFlop" class="w3-dropdown-content w3-bar-block w3-white w3-card">
+                                        <a href="#" class="w3-bar-item w3-button">Men</a>
+                                        <a href="#" class="w3-bar-item w3-button">Women</a>
+                                        <a href="#" class="w3-bar-item w3-button">Children</a>
+                                      </div> 
+                                  </div>
+                                  <div class="w3-dropdown-click">
+                                    <button class="w3-button " onclick="myOoolFunc()">
+                                            Jeans <i class="fa fa-caret-down"></i>
+                                            </button>
+                                            <div id="demoSad" class="w3-dropdown-content w3-bar-block w3-white w3-card">
+                                              <a href="#" class="w3-bar-item w3-button">Men</a>
+                                              <a href="#" class="w3-bar-item w3-button">Women</a>
+                                              <a href="#" class="w3-bar-item w3-button">Children</a>
+                                            </div>
+                                    </div>
+                                    <div class="w3-dropdown-click">
+                                    <button class="w3-button " onclick="myYoolFunc()">
+                                            Joggers <i class="fa fa-caret-down"></i>
+                                            </button>
+                                            <div id="demoBad" class="w3-dropdown-content w3-bar-block w3-white w3-card">
+                                              <a href="#" class="w3-bar-item w3-button">Men</a>
+                                              <a href="#" class="w3-bar-item w3-button">Women</a>
+                                              <a href="#" class="w3-bar-item w3-button">Children</a>
+                                            </div>
+                                    </div>
+                                    <div class="w3-dropdown-click">
+                                      <button class="w3-button " onclick="myLoolFunc()">
+                                              Shirts <i class="fa fa-caret-down"></i>
+                                              </button>
+                                              <div id="demoTad" class="w3-dropdown-content w3-bar-block w3-white w3-card">
+                                                <a href="#" class="w3-bar-item w3-button">Men</a>
+                                                <a href="#" class="w3-bar-item w3-button">Women</a>
+                                                <a href="#" class="w3-bar-item w3-button">Children</a>
+                                              </div>
+                                      </div>
+                                      <div class="w3-dropdown-click">
+                                        <button class="w3-button " onclick="myMoolFunc()">
+                                                Capris <i class="fa fa-caret-down"></i>
+                                                </button>
+                                                <div id="demoLad" class="w3-dropdown-content w3-bar-block w3-white w3-card">
+                                                  <a href="#" class="w3-bar-item w3-button">Men</a>
+                                                  <a href="#" class="w3-bar-item w3-button">Women</a>
+                                                  <a href="#" class="w3-bar-item w3-button">Children</a>>
+                                                </div>
+                                        </div>
+                                        <div class="w3-dropdown-click">
+                                          <button class="w3-button " onclick="myNoolFunc()">
+                                                  Dresses <i class="fa fa-caret-down"></i>
+                                                  </button>
+                                                  <div id="demoPad" class="w3-dropdown-content w3-bar-block w3-white w3-card">
+                                                    <a href="#" class="w3-bar-item w3-button">Men</a>
+                                                    <a href="#" class="w3-bar-item w3-button">Women</a>
+                                                    <a href="#" class="w3-bar-item w3-button">Children</a>
+                                                  </div>
+                                          </div>
+                                          <div class="w3-dropdown-click">
+                                            <button class="w3-button " onclick="myQoolFunc()">
+                                                    Shoes <i class="fa fa-caret-down"></i>
+                                                    </button>
+                                                    <div id="demoKad" class="w3-dropdown-content w3-bar-block w3-white w3-card">
+                                                      <a href="#" class="w3-bar-item w3-button">Men</a>
+                                                      <a href="#" class="w3-bar-item w3-button">Women</a>
+                                                      <a href="#" class="w3-bar-item w3-button">Children</a>
+                                                    </div>
+                                            </div>
+                                            <div class="w3-dropdown-click">
+                                              <button class="w3-button " onclick="myJoolFunc()">
+                                                      Accessories <i class="fa fa-caret-down"></i>
+                                                      </button>
+                                                      <div id="demoHad" class="w3-dropdown-content w3-bar-block w3-white w3-card">
+                                                        <a href="#" class="w3-bar-item w3-button">Men</a>
+                                                        <a href="#" class="w3-bar-item w3-button">Women</a>
+                                                        <a href="#" class="w3-bar-item w3-button">Children</a>
+                                                      </div>
+                                              </div>
+                                              <div class="jk">
+                                                <img src="images/logo.png" alt="logo" width="189px" height="80px" style="margin-top:1rem;" >
+                                              </div>
+                                            
+               
+              </div>
+              
+              <div class="w3-main" style="margin-left:200px">
+                    <div class="w3">
+                      <button class="w3-button  w3-xlarge w3-hide-large" onclick="w3_open()">&#9776;</button>
+                      <div class="w3-container">
+                       
+                      </div>
+                    </div>
+
    <header class ="head">
        <div class="nav">
-           <a href="#a">About</a>
-           <a href="#b">Profile</a>
-           <a href="#c">Contact</a>
-           <a href="#d">Projects</a>
+           <a href="#a"><i class="fa fa-heart"></i>
+            Account</a>
+           <a href="#b">Sign in</a>
+           <a href="#c">Favourites</a>
+           <a href="#d"><i class="fa fa-shopping-bag"></i>
+            Shopping Bag</a>
 
            
        </div>
 
        <div class="content">
-            <a href="#run">Explore</a>
-            <a href="#fly">Visit Us</a>
+            <a href="#run"><i class="fa fa-phone"></i>
+              Customer Service</a>
+            <a href="#fly">Store Offers</a>
         </div>
        
         <div class="lg">
@@ -62,15 +237,6 @@
 
 </div>
 
-<div class="free">
-<div class="hey">
-     <h2 style ="font-size: 1rem"> Free Returns Are Here!</h2>
-</div>
-<div class="heyo">
- <p style ="margin-top: 0px;">For a limited time only, enjoy free returns by mail.</p> 
-</div>
- 
-</div>
 
 
                     
@@ -78,7 +244,7 @@
 
                         
                             <div class="wrap yell">
-                                <img id="happy" src="images/yellow.jpg" alt="women" width="900px" height="600px">
+                                <img id="happy" src="images/yellow.jpg" alt="women" width="900px">
                                 <p>Be stylish this summer</p>
                             </div>
                         
@@ -86,19 +252,21 @@
                  
                       
                         
-                         
-                                <div class="wrap slideanim ">
+                          
+                              <div class="wrap  ">
                                      
                                         
                                        
-                                        <div class="box one yell"><img class ="sweater" src="images/sweater.jpg" alt="" width = "435px" height="600px"><p>Be stylish this summer</p></div>
+                                <div class="box one yell"><img class ="sweater" src="images/sweater.jpg" alt="" width = "435px"><p>Be stylish this summer</p></div>
 
-                                        <div class="box two yell"> <img class = "jacket" src="images/jacket.jpg" alt="" width = "435px" height="600px"><p>Be stylish this summer</p></div>
-                                    </div>
-                        
+                                <div class="box two yell"> <img class = "jacket" src="images/jacket.jpg" alt="" width = "435px"><p>Be stylish this summer</p></div>
+                            </div>
+                
+                            
+                               
                       
                                 <div class="wrap slideanim yell  ">
-                                        <img class ="black" src="images/black.jpg" alt="" width="900px" height="600px">
+                                        <img class ="black" src="images/black.jpg" alt="" width="900px">
                                         <p>Be stylish this summer</p>
                                      </div>
                        
@@ -106,43 +274,43 @@
                         
                                 <div class="wrap slideanim yell ">
                                         
-                                        <img class ="leather yell" src="images/leather.jpg" alt="" width = "430px" height="700px" style="max-width:50%;">
-                                        <img class ="dress yell" src="images/dress (2).jpg" alt="" width = "430px" height="700px"style="max-width:50%;"><p>Be stylish this summer</p>
+                                        <img class ="leather yell" src="images/leather.jpg" alt="" width = "450px"  style="max-width:50%;">
+                                        <img class ="dress yell" src="images/dress (2).jpg" alt="" width = "450px" style="max-width:50%;"><p>Be stylish this summer</p>
                                        
                                 </div>
                       
                    
                                 <div class="wrap slideanim yell">
-                                        <img class ="hat" src="images/hat.jpg" alt="" width="287px" height="420px" style="max-width:30%;"><p>Be stylish this summer</p>
-                                        <img class ="clout" src="images/clout.jpg" alt="" width ="287px" height="420px"style="max-width:30%;">
-                                        <img class ="jeans" src="images/jeans.jpg" alt="" width ="287px" height="420px"style="max-width:30%;">
+                                        <img class ="hat" src="images/hat.jpg" alt="" width="300px"  style="max-width:30%;"><p>Be stylish this summer</p>
+                                        <img class ="clout" src="images/clout.jpg" alt="" width ="300px" style="max-width:30%;">
+                                        <img class ="jeans" src="images/jeans.jpg" alt="" width ="300px" style="max-width:30%;">
                                 </div>
                 
                         
                        
                                 <div class="wrap slideanim yell">
-                                        <img class ="accessories" src="images/accessories.jpg" alt="" width = "600px" height="500px"style="margin-bottom:30px"><p>Be stylish this summer</p>
+                                        <img class ="accessories" src="images/accessories.jpg" alt="" width = "900px" style="margin-bottom:30px"><p>Be stylish this summer</p>
                                 </div>
                        
                         
                             
                                     <div class="run slideanim">
-                                            <div class="cont">
-                                                    <h2>Our Magazine</h2></br>
+                                            <div class="cont" style ="font-size: 1rem;">
+                                                    <h2 style="font-family: adelle-sans-ultra-thin, sans-serif;" >Our Magazine</h2></br>
                                             </div>
                                             <div class="link">
-                                                <a href="#Mag">Read Western Dragon's Magazine</a>
+                                                <a href="#Mag" style="font-family: adelle-sans-ultra-thin, sans-serif; font-size: 1.2rem">Read Western Dragon's Magazine</a>
                                             </div>
                                             <div class="photo">
-                                                    <div id ="sky"><img src="images/love (2).jpg" alt="" width="325px" height=200px">
-                                                        <h1>Featured Fashion</h1><h2>Stories in blue</h2><a href="#story">Read the story</a>
+                                                    <div id ="sky"><img src="images/love (2).jpg" alt="" >
+                                                        <h1>Featured Fashion</h1><h2 style ="font-size: 1.2rem">Stories in blue</h2><a href="#story" style ="font-size: 1rem">Read the story</a>
                                                     </div> 
-                                                    <div id ="shine"><img src="images/shoes.jpg" alt="" width="325px" height="200px">
-                                                        <h1>Editors Picks</h1><h2>Best accessories for Spring</h2><a href="#story">Read the story</a>
+                                                    <div id ="shine"><img src="images/shoes.jpg" alt=""  >
+                                                        <h1>Editors Picks</h1><h2 style ="font-size: 1.2rem">Best accessories for Spring</h2><a href="#story" style ="font-size: 1.1rem">Read the story</a>
                                                     </div>
                                                         
-                                                    <div id ="sun"><img src="images/belt.jpg" alt="" width="325px" height="200px">
-                                                        <h1>Featured Fashion</h1><h2>Stories in white</h2><a href="#story">Read the story</a>
+                                                    <div id ="sun"><img src="images/belt.jpg" alt=""  >
+                                                        <h1>Featured Fashion</h1><h2 style ="font-size: 1.2rem">Stories in white</h2><a href="#story" style ="font-size: 1.1rem">Read the story</a>
                                                     </div>
                                                     
                                                 </div>
@@ -158,7 +326,7 @@
                                                     
                                                   </div>
                                             <p>Valid for first-time registrants only & applies to </p>
-                                            <p>Yes! I would like to receive style news and exclusive offers from Gap Inc. and related companies and brands including Gap (Canada) Inc. and Old Navy (Canada) Inc., and Banana Republic (Canada) Inc.</p>
+                                            <p>Yes! I would like to receive style news and exclusive offers from Western Dragon's Inc. and related companies and brands</p>
                                             <p>You can withdraw your consent at any time. For more details see our Privacy Policy or Contact us. </p>
                                     </div>
                              </div> 
@@ -255,10 +423,192 @@
     }
   });
 });
+
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+
+    function myAccFunc() {
+  var x = document.getElementById("demoAcc");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+    x.previousElementSibling.className += " w3-blue";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+    x.previousElementSibling.className = 
+    x.previousElementSibling.className.replace(" w3-green", "");
+  }
+}
+
+   
+
+function myCoolFunc() {
+  var x = document.getElementById("demoAbb");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+    x.previousElementSibling.className += "w3-blue";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+    x.previousElementSibling.className = 
+    x.previousElementSibling.className.replace(" w3-green", "");
+  }
+}
+function myFoolFunc() {
+  var x = document.getElementById("demoAdd");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+    x.previousElementSibling.className += " w3-blue";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+    x.previousElementSibling.className = 
+    x.previousElementSibling.className.replace(" w3-green", "");
+  }
+}  
+function myDroolFunc() {
+  var x = document.getElementById("demoMop");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+    x.previousElementSibling.className += " w3-blue";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+    x.previousElementSibling.className = 
+    x.previousElementSibling.className.replace(" w3-green", "");
+  }
+}  
+
+
+function myBoolFunc() {
+  var x = document.getElementById("demoFlop");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+    x.previousElementSibling.className += " w3-blue";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+    x.previousElementSibling.className = 
+    x.previousElementSibling.className.replace(" w3-green", "");
+  }
+}  
+
+
+function myVoolFunc() {
+  var x = document.getElementById("demoAss");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+    x.previousElementSibling.className += " w3-blue";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+    x.previousElementSibling.className = 
+    x.previousElementSibling.className.replace(" w3-green", "");
+  }
+}  
+function myWoolFunc() {
+  var x = document.getElementById("demoApp");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+    x.previousElementSibling.className += " w3-blue";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+    x.previousElementSibling.className = 
+    x.previousElementSibling.className.replace(" w3-green", "");
+  }
+}  
+
+function myOoolFunc() {
+  var x = document.getElementById("demoSad");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+    x.previousElementSibling.className += " w3-blue";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+    x.previousElementSibling.className = 
+    x.previousElementSibling.className.replace(" w3-green", "");
+  }
+} 
+function myYoolFunc() {
+  var x = document.getElementById("demoBad");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+    x.previousElementSibling.className += " w3-blue";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+    x.previousElementSibling.className = 
+    x.previousElementSibling.className.replace(" w3-green", "");
+  }
+} 
+
+function myLoolFunc() {
+  var x = document.getElementById("demoTad");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+    x.previousElementSibling.className += " w3-blue";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+    x.previousElementSibling.className = 
+    x.previousElementSibling.className.replace(" w3-green", "");
+  }
+} 
+function myMoolFunc() {
+  var x = document.getElementById("demoLad");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+    x.previousElementSibling.className += " w3-blue";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+    x.previousElementSibling.className = 
+    x.previousElementSibling.className.replace(" w3-green", "");
+  }
+} 
+function myNoolFunc() {
+  var x = document.getElementById("demoPad");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+    x.previousElementSibling.className += " w3-blue";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+    x.previousElementSibling.className = 
+    x.previousElementSibling.className.replace(" w3-green", "");
+  }
+} 
+function myQoolFunc() {
+  var x = document.getElementById("demoKad");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+    x.previousElementSibling.className += "w3-blue";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+    x.previousElementSibling.className = 
+    x.previousElementSibling.className.replace(" w3-green", "");
+  }
+} 
+function myJoolFunc() {
+  var x = document.getElementById("demoHad");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+    x.previousElementSibling.className += " w3-blue";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+    x.previousElementSibling.className = 
+    x.previousElementSibling.className.replace(" w3-green", "");
+  }
+} 
+
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}            
+                    
+                    
+                    
                     </script>
 
-                    
-                                
+                       
                     
                 
                 
