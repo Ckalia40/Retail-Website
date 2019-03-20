@@ -7,6 +7,8 @@
   .fa-caret-down{
     padding-left: 0.6rem;
   }
+
+ 
 .sky,.shine.sun{
   border:0.0625rem solid #e0e0e0;
 }
@@ -240,7 +242,9 @@ font-size: 0.7rem;
         font-family: 'Sonsie One', cursive;
         }
 
-
+#stew{
+  left: 85%;
+}
 .bg{
     background-color: white;
     
@@ -337,9 +341,11 @@ h4{
 
 .email h1{
   font-size: 1.2rem;
+  font-family:'Raleway', sans-serif; 
 }
 .email p{
     text-align: center;
+    style = "font-family:'Raleway', sans-serif; "
     
 }
 @media only screen and (max-width: 600px){
@@ -355,38 +361,51 @@ h4{
     text-align: center;
 }
 
-
-
-.list{
-    /* border: 1px solid red; */
-    margin:0 auto;
-    width:900px;
-   max-width: 100vw;
-    margin-top:30px;
-   }
-
-.headings{
-    display:flex;
-    justify-content: space-around;
-    /* border:1px solid black; */
-    margin-bottom: 0px;
-    max-width: 90vw;
-    
-}
-
-.list div{
-    margin: 15px;
-    margin-bottom:0;
-  margin-top:5px;
+.footer{
+        
+  /* border: 1px solid red; */
+  margin-top: 2rem;
   
 }
 
-.course{
-    display:flex;
-    justify-content: space-around;
-    /* border: 1px solid blue; */
-    max-width: 90vw;
+
+.coi,.joy {
+  display: grid;
+  grid-template-columns: 160px 170px 90px 120px;
+ grid-column-gap: 4em;
+  color: #444;
+ justify-content: center;
+ /* border: 1px solid blue; */
+ 
+    font-size: 0.9rem;
+   
+    font-family: 'Raleway', sans-serif; 
+    
 }
+
+@media only screen and (max-width: 900px){
+  .coi,.joy{
+      grid-column-gap: 0px;
+      font-size: 0.55rem;
+      grid-template-columns: 90px 90px 60px 60px;
+
+      
+  }
+}
+
+
+.joy{
+  margin: 0 auto;
+
+  margin-top: 2rem;
+ 
+ 
+grid-template-rows: 40px 40px 40px;
+}
+
+
+
+
 
   
   .social{
@@ -409,8 +428,10 @@ h4{
 
 
   .text p{
-      font-size: 10px;
+      font-size: 0.6rem;
       text-align: center;
+      padding-right: 1rem;
+      padding-left: 1rem;
   }
 
   .lg,.can{
@@ -509,4 +530,8 @@ font-size: 1rem;
     opacity: 1;
     -webkit-transform: translateY(0%);
   }
+}
+
+.fa-heart-o{
+  color:red;
 }
